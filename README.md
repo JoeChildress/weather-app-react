@@ -1,2 +1,2 @@
 # weather-app-react
-Created with CodeSandbox
+A weather app using React and the VisualCrossing.com API.
