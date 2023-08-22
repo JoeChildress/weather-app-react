@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+  background: rgb(43, 18, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(43, 18, 255, 1) 35%,
+    rgba(85, 99, 246, 1) 100%
+  );
+}
+
+.weather-app-wrapper {
+  background: black;
+  max-width: 600px;
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 1.3rem;
+}
+
+form {
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+form input {
+  width: 13rem;
+  height: 2.2rem;
+  border: 2px solid #d8019d;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 0.5rem;
+  transition-duration: 400ms;
+}
+
+form input:hover,
+form input:focus {
+  width: 14rem;
+  outline: thin dotted;
+  transition-duration: 400ms;
+}
+
+form button {
+  height: 2.2rem;
+  width: 4rem;
+  background-color: #d8019d;
+  color: white;
+  border-style: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+  border: 2px solid #d8019d;
+}
+
+.weather-box {
+  text-align: left;
+  padding: 1rem;
+  background: white;
+  width: 100%;
+  color: black;
+  border-radius: 6px;
+  margin-bottom: 0.7rem;
+}
+
+.weather-box h4 {
+  margin-bottom: 0.5rem;
+}
+
+.weather-box p {
+  line-height: 2rem;
+}
+
+.weather-details {
+  margin-bottom: 1rem;
+}
+
+.weather-box button {
+  padding: 0.5rem;
+  color: white;
+  border-style: none;
+  background-color: #d8019d;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.7rem;
+  transition-duration: 400ms;
+}
+
+.weather-box button:hover {
+  background-color: #ed1fb6;
+  font-size: 0.8rem;
+  transition-duration: 400ms;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+li {
+  text-align: left;
+  background-color: #7209fc;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+li:hover {
+  background-color: #8327fb;
+  cursor: pointer;
+}
+
+.list-city-name {
+  margin-bottom: 0.25rem;
+}
+
+li button {
+  /* margin-top: 0.4rem; */
+  width: 20px;
+  height: 20px;
+  border: 2px solid #d9bdfe;
+  background: none;
+  color: #d9bdfe;
+  font-size: 0.6rem;
+  border-radius: 50%;
+  transition-duration: 300ms;
+}
+li button:hover {
+  cursor: pointer;
+  font-size: 0.7rem;
+  background-color: #d9bdfe;
+  color: #8327fb;
+  transition-duration: 300ms;
+}
+
+.list-details {
+  margin-left: 2rem;
+}
+
+.list-sub-list {
+  line-height: 1.5rem;
+  display: flex;
+}
+
+.list-details:first-of-type {
+  margin-left: 0;
+}
